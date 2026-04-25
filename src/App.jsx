@@ -1,16 +1,14 @@
 
 
-import Users from "./Users";
+import Collage from "./Collage";
 
 function App() {
-  let userName = "Vikash Pandit"
-  let age = 34;
-  let email = "vikash@1234.com"
+
+  let collageName = ["IIT","IITT", "NIT"]
   return (
     <div>
       <h1>Hello</h1>
-      {/* <h2>{name}</h2> */}
-      <Users name = {userName}  age={age} email={email}/>
+      <Collage  names = {collageName}/>
     </div>
   )
 }
